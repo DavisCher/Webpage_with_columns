@@ -1,0 +1,48 @@
+body{ 
+    margin: 0;
+   background-image: url(desert.png);    
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100%;
+}
+
+.header{background-color: #00000b; clear:both; overflow: auto; opacity: .85;}
+.logo{ float:left; color: gray; padding:10px; font-size: 40px;}
+.nav{ float:right; color: white;}
+
+li{display: inline-block; 
+padding: 20px; 
+font-size: 20px ;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 30%;
+    margin: 5px;
+  padding: 30px 30px;
+  background: rgba(250,250,250,0.4);
+  }
+  .row{margin-left: 100px;}
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
